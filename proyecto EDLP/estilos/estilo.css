@@ -5,17 +5,17 @@ h1 {text-decoration: underline;}
 h1 {color: white;}
 h1 {align-self: center;}
 h1 {text-align: center;}
-p {color: orange;}
+p {color: white;}
 p {font-size: xx-larger}
 p {background-color: black;}
 h3 {font-size: small}
-h3 {color: orange;}
+h3 {color: white;}
 h3 {font-size: xx-larger}
 h3 {text-decoration: underline;}
 h3 {text-align: center;}
 h3 {background-color: black;}
 h4 {font-size: small}
-h4 {color: orange;}
+h4 {color: white;}
 h4 {font-size: xx-larger}
 h4 {text-align: center;}
 h4 {text-decoration: underline;}
@@ -24,7 +24,7 @@ h5 {background-color: black}
 h5 {color: white;}
 h5 {text-align: center;}
 h5 {text-decoration: underline;}
-li {background-color: red;}
+li {background-color: white;}
 img {background-size: cover;}
 img {max-height: none;}
 img {background-position: center;}
@@ -35,3 +35,64 @@ img {background-position: center;}
 .lugaresvisitar {background-color: white;}
 .recetasfaciles {background-color: white;}
 .conocenos {background-color: white;}
+
+header {background-color: violet;
+width: 49%;
+float: left;
+border: 3px solid black;
+padding: 10px;
+box-sizing: border-box;
+
+
+}
+
+section {background-color: pink;
+  width: 49%;
+  float: right;
+  border: 3px solid black;
+  box-sizing: border-box;
+
+
+}
+
+nav {background-color: black;
+clear: both;
+width: 50%;
+
+
+
+}
+
+footer {background-color: blue;
+  width: 49%;
+  float: left;
+  border: 3px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+
+
+}
+.cazuelaimagen:hover {width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.conocenos:hover {color: black}
+.otrasrecetas:hover {color: orange}
+.lugaresvisitar:hover {color: black}
+.recetasfaciles:hover {color: orange}
+
+.whatsapp:hover {width: 30%;
+  border-radius: 50%;
+  border: 3px solid white;}
+
+.instagram:hover {width: 30%;
+  border-radius: 50%;
+  border: 3px solid white;}
+
+.facebook:hover {width: 30%;
+    border-radius: 50%;
+    border: 3px solid white;}
+
+.inicio:hover {color: orange;}
+.inicio {background: black; color: white;}
