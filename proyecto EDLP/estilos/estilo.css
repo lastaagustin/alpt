@@ -52,30 +52,40 @@ section {background-color: pink;
   border: 3px solid black;
   box-sizing: border-box;
 
-
 }
 
-nav {background-color: black;
+nav {background-color: white;
 clear: both;
-width: 50%;
-
-
-
+width: 100%;
+display: flex;
+justify-content: space-around;
 }
+
 
 footer {background-color: blue;
-  width: 49%;
+  width: 100%;
   float: left;
   border: 3px solid black;
   padding: 10px;
   box-sizing: border-box;
 
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 
 }
-.cazuelaimagen:hover {width: 100%;
+.cazuelaimagen:hover {width: 40%;
   border-radius: 50%;
   border: 3px solid white;
-}
+  }
+
+.cazuelaimagen {float: left;
+max-width: 800px;
+max-height: 400px;}
+
+.mapa {float: right;}
+
+.videoyoutube
 
 .conocenos:hover {color: black}
 .otrasrecetas:hover {color: orange}
@@ -96,3 +106,25 @@ footer {background-color: blue;
 
 .inicio:hover {color: orange;}
 .inicio {background: black; color: white;}
+
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;}
+}
+
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;}
+}
